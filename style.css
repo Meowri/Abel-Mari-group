@@ -1,1 +1,27 @@
 
+header{
+    background:LightSkyBlue;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+  }  
+
+nav{
+    background:rgb(135, 181, 250);
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+}
+
+aside{
+    background: rgb(152, 251, 234);
+    width: 100%;  
+    text-align: center;
+    padding: 10px;
+}
+footer {
+    background: PaleGreen;
+    width: 100%;  
+    text-align: center;
+    padding: 10px;
+}
