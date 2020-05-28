@@ -1,36 +1,49 @@
 
+body {
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+    background: #f4f4f4;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
 header{
     background:LightSkyBlue;
     text-align: center;
-    padding: 20px;
-    width: 100%;
+    padding: 1%;
+    width: 98%;
   }  
 
 nav{
     background:rgb(135, 181, 250);
     text-align: left;
-    padding: 20px;
-    width: 100%;
+    padding: 2%;
+    width: 96%;
 }
 
 aside{
     background: rgb(152, 251, 234);
-    width: 100%;  
+    width: 25%;
+    min-height: 500px;  
     text-align: center;
-    padding: 10px;
+    padding: 1%;
+    float: right;
 }
 
 footer {
     background: PaleGreen;
-    width: 100%;  
+    width: 98%;  
     text-align: center;
-    padding: 10px;
+    padding: 1%;
     clear: both;
 }
 
 article{
     background:PaleTurquoise;
-    width: 70%;
+    width: 67%;
+    min-height: 500px;
     float: left;
-    padding: 20px;
+    padding: 1% 3%;
 }
